@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="all_features.exe" errors="0" failures="24" tests="16" time="7.7e-05" doctest_version="2.3.8" timestamp="2020-06-04T20:46:57Z">
+    <testcase classname="assertion_macros.cpp" name="all binary assertions" time="7.7e-05">
+      <failure message="1, 1" type="WARN_EQ">
+        assertion_macros.cpp(149): Expression 1, 1 became 1, 1
+      </failure>
+      <failure message="1, 1" type="CHECK_EQ">
+        assertion_macros.cpp(150): Expression 1, 1 became 1, 1
+      </failure>
+      <failure message="1, 1" type="REQUIRE_EQ">
+        assertion_macros.cpp(151): Expression 1, 1 became 1, 1
+      </failure>
+      <failure message="1, 0" type="WARN_NE">
+        assertion_macros.cpp(152): Expression 1, 0 became 1, 0
+      </failure>
+      <failure message="1, 0" type="CHECK_NE">
+        assertion_macros.cpp(153): Expression 1, 0 became 1, 0
+      </failure>
+      <failure message="1, 0" type="REQUIRE_NE">
+        assertion_macros.cpp(154): Expression 1, 0 became 1, 0
+      </failure>
+      <failure message="1, 0" type="WARN_GT">
+        assertion_macros.cpp(155): Expression 1, 0 became 1, 0
+      </failure>
+      <failure message="1, 0" type="CHECK_GT">
+        assertion_macros.cpp(156): Expression 1, 0 became 1, 0
+      </failure>
+      <failure message="1, 0" type="REQUIRE_GT">
+        assertion_macros.cpp(157): Expression 1, 0 became 1, 0
+      </failure>
+      <failure message="0, 1" type="WARN_LT">
+        assertion_macros.cpp(158): Expression 0, 1 became 0, 1
+      </failure>
+      <failure message="0, 1" type="CHECK_LT">
+        assertion_macros.cpp(159): Expression 0, 1 became 0, 1
+      </failure>
+      <failure message="0, 1" type="REQUIRE_LT">
+        assertion_macros.cpp(160): Expression 0, 1 became 0, 1
+      </failure>
+      <failure message="1, 1" type="WARN_GE">
+        assertion_macros.cpp(161): Expression 1, 1 became 1, 1
+      </failure>
+      <failure message="1, 1" type="CHECK_GE">
+        assertion_macros.cpp(162): Expression 1, 1 became 1, 1
+      </failure>
+      <failure message="1, 1" type="REQUIRE_GE">
+        assertion_macros.cpp(163): Expression 1, 1 became 1, 1
+      </failure>
+      <failure message="1, 1" type="WARN_LE">
+        assertion_macros.cpp(164): Expression 1, 1 became 1, 1
+      </failure>
+      <failure message="1, 1" type="CHECK_LE">
+        assertion_macros.cpp(165): Expression 1, 1 became 1, 1
+      </failure>
+      <failure message="1, 1" type="REQUIRE_LE">
+        assertion_macros.cpp(166): Expression 1, 1 became 1, 1
+      </failure>
+      <failure message="1" type="WARN_UNARY">
+        assertion_macros.cpp(167): Expression 1 became 1
+      </failure>
+      <failure message="1" type="CHECK_UNARY">
+        assertion_macros.cpp(168): Expression 1 became 1
+      </failure>
+      <failure message="1" type="REQUIRE_UNARY">
+        assertion_macros.cpp(169): Expression 1 became 1
+      </failure>
+      <failure message="0" type="WARN_UNARY_FALSE">
+        assertion_macros.cpp(170): Expression 0 became 0
+      </failure>
+      <failure message="0" type="CHECK_UNARY_FALSE">
+        assertion_macros.cpp(171): Expression 0 became 0
+      </failure>
+      <failure message="0" type="REQUIRE_UNARY_FALSE">
+        assertion_macros.cpp(172): Expression 0 became 0
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>
+Program code.

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+root
+1
+1.1
+
+root
+2
+2.1
+
+root
+2
+<testsuites>
+  <testsuite name="all_features.exe" errors="4" failures="5" tests="25" time="0.000381" doctest_version="2.3.8" timestamp="2020-06-04T20:46:56Z">
+    <testcase classname="subcases.cpp" name="lots of nested subcases" time="0"/>
+    <testcase classname="subcases.cpp" time="0"/>
+    <testcase classname="subcases.cpp" time="0"/>
+    <testcase classname="subcases.cpp" time="0"/>
+    <testcase classname="subcases.cpp" time="0"/>
+    <testcase classname="subcases.cpp" time="0"/>
+    <testcase classname="subcases.cpp" time="0.000158"/>
+    <testcase classname="subcases.cpp" name="subcases can be used in a separate function as well" time="0"/>
+    <testcase classname="subcases.cpp" name="from function..." time="0"/>
+    <testcase classname="subcases.cpp" name="sc1" time="0"/>
+    <testcase classname="subcases.cpp" name="from function..." time="0"/>
+    <testcase classname="subcases.cpp" name="sc2" time="1.6e-05"/>
+    <testcase classname="subcases.cpp" name="  Scenario: vectors can be sized and resized" time="0"/>
+    <testcase classname="subcases.cpp" name="   Given: A vector with some items" time="0"/>
+    <testcase classname="subcases.cpp" name="    When: the size is increased" time="0"/>
+    <testcase classname="subcases.cpp" name="    Then: the size and capacity change" time="0">
+      <failure message="10 == 20" type="CHECK">
+        subcases.cpp(65): Expression v.size() == 20 became 10 == 20
+      </failure>
+    </testcase>
+    <testcase classname="subcases.cpp" name="   Given: A vector with some items" time="0"/>
+    <testcase classname="subcases.cpp" name="    When: the size is reduced" time="0"/>
+    <testcase classname="subcases.cpp" name="    Then: the size changes but not capacity" time="0"/>
+    <testcase classname="subcases.cpp" name="   Given: A vector with some items" time="0"/>
+    <testcase classname="subcases.cpp" name="    When: more capacity is reserved" time="0"/>
+    <testcase classname="subcases.cpp" name="    Then: the capacity changes but not the size" time="0"/>
+    <testcase classname="subcases.cpp" name="   Given: A vector with some items" time="0"/>
+    <testcase classname="subcases.cpp" name="    When: less capacity is reserved" time="0"/>
+    <testcase classname="subcases.cpp" name="    Then: neither size nor capacity are changed" time="7.3e-05">
+      <failure message="5 == 10" type="CHECK">
+        subcases.cpp(89): Expression v.size() == 10 became 5 == 10
+      </failure>
+    </testcase>
+    <testcase classname="subcases.cpp" name="test case should fail even though the last subcase passes" time="0"/>
+    <testcase classname="subcases.cpp" name="one" time="0">
+      <failure message="false" type="CHECK">
+        subcases.cpp(98): Expression false became false
+      </failure>
+    </testcase>
+    <testcase classname="subcases.cpp" name="two" time="9e-06"/>
+    <testcase classname="subcases.cpp" name="fails from an exception but gets re-entered to traverse all subcases" time="0"/>
+    <testcase classname="subcases.cpp" name="level zero" time="0"/>
+    <testcase classname="subcases.cpp" name="one" time="0">
+      <failure message="false" type="CHECK">
+        subcases.cpp(108): Expression false became false
+      </failure>
+      <error message="exception">
+        exception thrown in subcase - will translate later when the whole test case has been exited (cannot translate while there is an active exception)
+      </error>
+      <error message="exception">
+        failure... but the show must go on!
+      </error>
+    </testcase>
+    <testcase classname="subcases.cpp" name="level zero" time="0"/>
+    <testcase classname="subcases.cpp" name="two" time="7.6e-05">
+      <failure message="false" type="CHECK">
+        subcases.cpp(111): Expression false became false
+      </failure>
+      <error message="exception">
+        exception thrown in subcase - will translate later when the whole test case has been exited (cannot translate while there is an active exception)
+      </error>
+      <error message="exception">
+        failure... but the show must go on!
+      </error>
+    </testcase>
+    <testcase classname="subcases.cpp" name="Nested - related to https://github.com/onqtam/doctest/issues/282" time="0"/>
+    <testcase classname="subcases.cpp" name="generate data variant 1" time="0"/>
+    <testcase classname="subcases.cpp" name="check data 1" time="0"/>
+    <testcase classname="subcases.cpp" name="generate data variant 1" time="0"/>
+    <testcase classname="subcases.cpp" name="check data 2" time="0"/>
+    <testcase classname="subcases.cpp" name="generate data variant 1" time="0"/>
+    <testcase classname="subcases.cpp" name="check data 1" time="0"/>
+    <testcase classname="subcases.cpp" name="generate data variant 1" time="0"/>
+    <testcase classname="subcases.cpp" name="check data 2" time="1.9e-05"/>
+    <testcase classname="subcases.cpp" name="subcases with changing names" time="0"/>
+    <testcase classname="subcases.cpp" name="outer 0" time="0"/>
+    <testcase classname="subcases.cpp" name="inner 0" time="0"/>
+    <testcase classname="subcases.cpp" name="outer 0" time="0"/>
+    <testcase classname="subcases.cpp" name="inner 1" time="0"/>
+    <testcase classname="subcases.cpp" name="outer 1" time="0"/>
+    <testcase classname="subcases.cpp" name="inner 0" time="0"/>
+    <testcase classname="subcases.cpp" name="outer 1" time="0"/>
+    <testcase classname="subcases.cpp" name="inner 1" time="0"/>
+    <testcase classname="subcases.cpp" name="separate" time="3e-05"/>
+  </testsuite>
+</testsuites>
+Program code.

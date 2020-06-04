@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="all_features.exe" errors="0" failures="5" tests="19" time="4.5e-05" doctest_version="2.3.8" timestamp="2020-06-04T20:46:56Z">
+    <testcase classname="templated_test_cases.cpp" name="signed integers stuff&lt;signed char>" time="2e-06"/>
+    <testcase classname="templated_test_cases.cpp" name="signed integers stuff&lt;short int>" time="1e-06"/>
+    <testcase classname="templated_test_cases.cpp" name="signed integers stuff&lt;int>" time="1e-06"/>
+    <testcase classname="templated_test_cases.cpp" name="vector stuff&lt;std::vector&lt;int>>" time="2.1e-05">
+      <failure message="10 == 20" type="CHECK">
+        templated_test_cases.cpp(22): Expression vec.size() == 20 became 10 == 20
+      </failure>
+    </testcase>
+    <testcase classname="templated_test_cases.cpp" name="default construction&lt;signed char>" time="2e-06"/>
+    <testcase classname="templated_test_cases.cpp" name="default construction&lt;short int>" time="1e-06"/>
+    <testcase classname="templated_test_cases.cpp" name="default construction&lt;int>" time="1e-06"/>
+    <testcase classname="templated_test_cases.cpp" name="default construction&lt;double>" time="0"/>
+    <testcase classname="templated_test_cases.cpp" name="default construction&lt;double>" time="1e-06"/>
+    <testcase classname="templated_test_cases.cpp" name="default construction&lt;unsigned char>" time="0"/>
+    <testcase classname="templated_test_cases.cpp" name="default construction&lt;char>" time="0"/>
+    <testcase classname="templated_test_cases.cpp" name="multiple types&lt;>" time="5e-06">
+      <failure message="0 != 0" type="CHECK">
+        templated_test_cases.cpp(57): Expression t2 != T2() became 0 != 0
+      </failure>
+    </testcase>
+    <testcase classname="templated_test_cases.cpp" name="multiple types&lt;>" time="4e-06">
+      <failure message="0 != 0" type="CHECK">
+        templated_test_cases.cpp(57): Expression t2 != T2() became 0 != 0
+      </failure>
+    </testcase>
+    <testcase classname="templated_test_cases.cpp" name="multiple types&lt;>" time="3e-06">
+      <failure message="0 != 0" type="CHECK">
+        templated_test_cases.cpp(57): Expression t2 != T2() became 0 != 0
+      </failure>
+    </testcase>
+    <testcase classname="templated_test_cases.cpp" name="bad stringification of type pair&lt;int_pair>" time="3e-06">
+      <failure message="0 != 0" type="CHECK">
+        templated_test_cases.cpp(71): Expression t2 != T2() became 0 != 0
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>
+Program code.

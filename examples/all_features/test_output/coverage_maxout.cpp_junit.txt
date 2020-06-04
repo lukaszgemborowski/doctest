@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="all_features.exe" errors="3" failures="9" tests="31" time="0.000251" doctest_version="2.3.8" timestamp="2020-06-04T20:46:56Z">
+    <testcase classname="coverage_maxout.cpp" name="exercising tricky code paths of doctest" time="0.000156">
+      <failure message="0 != 0" type="CHECK">
+        coverage_maxout.cpp(41): Expression str.compare(const_str, true) != 0 became 0 != 0
+      </failure>
+      <failure message="0 != 0" type="CHECK">
+        coverage_maxout.cpp(42): Expression str.compare("omgomgomg", false) != 0 became 0 != 0
+      </failure>
+      <failure message="false" type="CHECK">
+        coverage_maxout.cpp(107): Expression len_is_zero became false
+      </failure>
+      <failure message="Approx( 7.0 ) == 5" type="CHECK">
+        coverage_maxout.cpp(113): Expression b == 5 became Approx( 7.0 ) == 5
+      </failure>
+      <failure message="Approx( 7.0 ) &lt;  5" type="CHECK">
+        coverage_maxout.cpp(116): Expression b &lt; 5 became Approx( 7.0 ) &lt;  5
+      </failure>
+      <failure message="Approx( 7.0 ) &lt;= 5" type="CHECK">
+        coverage_maxout.cpp(118): Expression b &lt;= 5 became Approx( 7.0 ) &lt;= 5
+      </failure>
+      <failure message="6 == Approx( 5.0 )" type="CHECK">
+        coverage_maxout.cpp(120): Expression 6 == a became 6 == Approx( 5.0 )
+      </failure>
+      <failure message="6 &lt;  Approx( 5.0 )" type="CHECK">
+        coverage_maxout.cpp(123): Expression 6 &lt; a became 6 &lt;  Approx( 5.0 )
+      </failure>
+      <failure message="6 &lt;= Approx( 5.0 )" type="CHECK">
+        coverage_maxout.cpp(125): Expression 6 &lt;= a became 6 &lt;= Approx( 5.0 )
+      </failure>
+    </testcase>
+    <testcase classname="coverage_maxout.cpp" name="will end from a std::string exception" time="6.1e-05">
+      <error message="exception">
+        std::string!
+      </error>
+    </testcase>
+    <testcase classname="coverage_maxout.cpp" name="will end from a const char* exception" time="1.5e-05">
+      <error message="exception">
+        const char*!
+      </error>
+    </testcase>
+    <testcase classname="coverage_maxout.cpp" name="will end from an unknown exception" time="1.9e-05">
+      <error message="exception">
+        unknown exception
+      </error>
+    </testcase>
+  </testsuite>
+</testsuites>
+Program code.

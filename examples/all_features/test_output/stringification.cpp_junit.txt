@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="all_features.exe" errors="2" failures="4" tests="4" time="0.000128" doctest_version="2.3.8" timestamp="2020-06-04T20:46:56Z">
+    <testcase classname="stringification.cpp" name="all asserts should fail and show how the objects get stringified" time="0.000118">
+      <failure message="Foo{} == Foo{}" type="CHECK">
+        stringification.cpp(98): Expression f1 == f2 became Foo{} == Foo{}
+      </failure>
+      <failure message="omg == tralala" type="CHECK">
+        stringification.cpp(104): Expression dummy1 == dummy2 became omg == tralala
+      </failure>
+      <failure message="[1, 2, 3] == [1, 2, 4]" type="CHECK">
+        stringification.cpp(116): Expression vec1 == vec2 became [1, 2, 3] == [1, 2, 4]
+      </failure>
+      <failure message="[1, 42, 3, ] == [1, 2, 666, ]" type="CHECK">
+        stringification.cpp(128): Expression lst_1 == lst_2 became [1, 42, 3, ] == [1, 2, 666, ]
+      </failure>
+      <error message="exception">
+        MyTypeInherited&lt;int>(5, 4)
+      </error>
+    </testcase>
+    <testcase classname="stringification.cpp" name="a test case that registers an exception translator for int and then throws one" time="1e-05">
+      <error message="exception">
+        5
+      </error>
+    </testcase>
+  </testsuite>
+</testsuites>
+Program code.

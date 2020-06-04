@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="all_features.exe" errors="0" failures="2" tests="7" time="0.0001" doctest_version="2.3.8" timestamp="2020-06-04T20:46:57Z">
+    <testcase classname="coverage_maxout.cpp" name="exercising tricky code paths of doctest" time="0.0001">
+      <failure message="0 != 0" type="CHECK">
+        coverage_maxout.cpp(41): Expression str.compare(const_str, true) != 0 became 0 != 0
+      </failure>
+      <failure message="0 != 0" type="CHECK">
+        coverage_maxout.cpp(42): Expression str.compare("omgomgomg", false) != 0 became 0 != 0
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>
+Program code.

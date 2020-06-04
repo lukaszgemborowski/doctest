@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="all_features.exe" errors="0" failures="0" tests="4" time="8.3e-05" doctest_version="2.3.8" timestamp="2020-06-04T20:46:56Z">
+    <testcase classname="header.h" name="in TS" time="6.3e-05"/>
+    <testcase classname="header.h" name="template 1&lt;char>" time="9e-06"/>
+    <testcase classname="header.h" name="template 2&lt;doctest::String>" time="8e-06"/>
+    <testcase classname="header.h" name="fixtured test" time="3e-06"/>
+  </testsuite>
+</testsuites>
+Program code.

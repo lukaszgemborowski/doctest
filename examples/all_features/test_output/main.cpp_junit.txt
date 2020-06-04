@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="all_features.exe" errors="0" failures="0" tests="1" time="3e-06" doctest_version="2.3.8" timestamp="2020-06-04T20:46:55Z">
+    <testcase classname="main.cpp" name="[string] testing std::string" time="3e-06"/>
+  </testsuite>
+</testsuites>
+Program code.

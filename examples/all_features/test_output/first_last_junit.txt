@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="all_features.exe" errors="3" failures="0" tests="0" time="0.000122" doctest_version="2.3.8" timestamp="2020-06-04T20:46:57Z">
+    <testcase classname="coverage_maxout.cpp" name="will end from a std::string exception" time="8.3e-05">
+      <error message="exception">
+        std::string!
+      </error>
+    </testcase>
+    <testcase classname="coverage_maxout.cpp" name="will end from a const char* exception" time="1.7e-05">
+      <error message="exception">
+        const char*!
+      </error>
+    </testcase>
+    <testcase classname="coverage_maxout.cpp" name="will end from an unknown exception" time="2.2e-05">
+      <error message="exception">
+        unknown exception
+      </error>
+    </testcase>
+  </testsuite>
+</testsuites>
+Program code.

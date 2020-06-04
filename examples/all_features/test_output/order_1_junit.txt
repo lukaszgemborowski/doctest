@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="all_features.exe" errors="1" failures="1" tests="12" time="0.000145" doctest_version="2.3.8" timestamp="2020-06-04T20:46:58Z">
+    <testcase classname="test_cases_and_suites.cpp" name="an empty test that will succeed - not part of a test suite" time="0"/>
+    <testcase classname="test_cases_and_suites.cpp" name="should fail because of an exception" time="5.1e-05">
+      <error message="exception">
+        0
+      </error>
+    </testcase>
+    <testcase classname="test_cases_and_suites.cpp" name="fixtured test - not part of a test suite" time="1.9e-05">
+      <failure message="21 == 85" type="CHECK">
+        test_cases_and_suites.cpp(42): Expression data == 85 became 21 == 85
+      </failure>
+    </testcase>
+    <testcase classname="test_cases_and_suites.cpp" name="part of scoped" time="2.4e-05"/>
+    <testcase classname="test_cases_and_suites.cpp" name="part of scoped 2" time="8e-06"/>
+    <testcase classname="test_cases_and_suites.cpp" name="unskipped" time="7e-06"/>
+    <testcase classname="test_cases_and_suites.cpp" name="skipped - inherited from the test suite" time="6e-06"/>
+    <testcase classname="test_cases_and_suites.cpp" name="part of some TS" time="6e-06"/>
+    <testcase classname="test_cases_and_suites.cpp" name="fails - and its allowed" time="7e-06"/>
+    <testcase classname="test_cases_and_suites.cpp" name="doesn't fail which is fine" time="0"/>
+    <testcase classname="test_cases_and_suites.cpp" name="fails as it should" time="7e-06"/>
+    <testcase classname="test_cases_and_suites.cpp" name="doesn't fail but it should have" time="1e-06"/>
+    <testcase classname="test_cases_and_suites.cpp" name="fails 1 time as it should" time="6e-06"/>
+    <testcase classname="test_cases_and_suites.cpp" name="fails more times as it should" time="1e-06"/>
+    <testcase classname="test_cases_and_suites.cpp" name="normal test in a test suite from a decorator" time="2e-06"/>
+  </testsuite>
+</testsuites>
+Program code.
